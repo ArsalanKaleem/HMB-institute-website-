@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>institube</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,300&family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+ <!----header section-->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png" alt="img"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="aboutus.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <H1>ABOUT <SPan>US</SPan></H1>
+    </section>
+     <!----header section ends-->
+     <!--About us content-->
+<section class="aboutus">
+<div class="row">
+<div class="about-col">
+    <h1>City's Most Advanced <span>computer</span> teaching Center</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat facere necessitatibus nobis temporibus incidunt tempore fuga fugit. Quam maiores <br> 
+        suscipit laudantium optio impedit! Possimus molestiae atque amet quod beatae?</p>
+        <a href="" class="hero-button red-btn">EXPLORE NOW</a>
+</div>
+<div class="about-col">
+    <img src="about.jpg" alt="">
+</div>
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <!--About us content-->
+
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ipsum molestiae praesentium, recusandae neque 
+        nisi <br> repellendus, velit fugiat officia commodi vero numquam at. Magni tempore adipisci voluptates corporis laborum.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by <span>ARSLAN</span> </p>
+</section>
+
+
+
+
+ 
+ 
+ 
+
+
+
+
+
+    <!----javasctipt-->
+   <script>
+       var navlinks= document.getElementById("navlinks");
+       function showmenu(){
+           navlinks.style.right="0";
+       }
+       function hidemenu(){
+           navlinks.style.right="-200px";
+       }
+   </script> 
+    <!----javasctipt end-->
+</body>
+</html>

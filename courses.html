@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>institube</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,300&family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+ <!----header section-->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png" alt="img"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="aboutus.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <H1>OUR <SPan>COURSES</SPan></H1>
+    </section>
+     <!----header section ends-->
+<!--course content-->
+<section class="course">
+    <h1><span>courses</span> we Offer</h1>
+    <p>We provide diverse range of courses in information TECHNOLOGY</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermidiate</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus deleniti blanditiis error aut, nulla,
+                 architecto illum a debitis reprehenderit, eius harum. Autem, hic. Tenetur odit voluptatem quasi, 
+                 eius aliquam repudiandae?</p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus deleniti blanditiis error aut, nulla,
+                 architecto illum a debitis reprehenderit, eius harum. Autem, hic. Tenetur odit voluptatem quasi, 
+                 eius aliquam repudiandae?</p>
+        </div>
+        <div class="course-col">
+            <h3>post graduate</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus deleniti blanditiis error aut, nulla,
+                 architecto illum a debitis reprehenderit, eius harum. Autem, hic. Tenetur odit voluptatem quasi, 
+                 eius aliquam repudiandae?</p>
+        </div>
+    </div>
+    </section>
+    <!--course content-->
+    <section class="facilities">
+        <h1>Our <span>Facilities</span></h1>
+        <p>“It has become appallingly obvious that our technology<br>
+             has exceeded our humanity.”</p>
+             <div class="row">
+                 <div class="facilities-col">
+                     <img src="fac1.jpg" alt="">
+                     <h3>24 hours electricity</h3>
+                     <p>30+ computers for Students to learn programming and web Designing,<br>
+                    We have very organized and civilized enviroment with seasoned staff.</p> 
+                    </div>
+                    <div class="facilities-col">
+                        <img src="fac2.jpg" alt="">
+                        <h3>strict Security</h3>
+                        <p>30+ computers for Students to learn programming and web Designing,<br>
+                       We have very organized and civilized enviroment with seasoned staff.</p> 
+                       </div>
+                       <div class="facilities-col">
+                        <img src="fac3.jpg" alt="">
+                        <h3>very nice staff</h3>
+                        <p>30+ computers for Students to learn programming and web Designing,<br>
+                       We have very organized and civilized enviroment with seasoned staff.</p> 
+                       </div>
+             </div>
+    </section>
+
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ipsum molestiae praesentium, recusandae neque 
+        nisi <br> repellendus, velit fugiat officia commodi vero numquam at. Magni tempore adipisci voluptates corporis laborum.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by <span>ARSLAN</span> </p>
+</section>
+    <!----javasctipt-->
+   <script>
+       var navlinks= document.getElementById("navlinks");
+       function showmenu(){
+           navlinks.style.right="0";
+       }
+       function hidemenu(){
+           navlinks.style.right="-200px";
+       }
+   </script> 
+    <!----javasctipt end-->
+</body>
+</html>
